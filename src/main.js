@@ -6,7 +6,7 @@ import css from './assets/style/index.css'
 // 原始数据
 export let data = {
     'text': '',
-    'speaker': '神里绫华',
+    'speaker': '空',
     'noise': '0.5',
     'noisew': '0.6',
     'length': '1.3',
