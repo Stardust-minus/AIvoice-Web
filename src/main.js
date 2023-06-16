@@ -6,10 +6,10 @@ import css from './assets/style/index.css'
 // 原始数据
 export let data = {
     'text': '',
-    'speaker': '鹿野院平藏',
-    'noise': '0.6',
-    'noisew': '0.8',
-    'length': '1',
+    'speaker': '神里绫华',
+    'noise': '0.5',
+    'noisew': '0.6',
+    'length': '1.3',
     'format': 'wav'
 }
 
