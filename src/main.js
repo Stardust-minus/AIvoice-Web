@@ -7,9 +7,9 @@ import css from './assets/style/index.css'
 export let data = {
     'text': '',
     'speaker': '空',
-    'noise': '0.5',
-    'noisew': '0.6',
-    'length': '1.3',
+    'noise': '0.2',
+    'noisew': '0.9',
+    'length': '0.8',
     'format': 'wav'
 }
 
