@@ -104,7 +104,7 @@ dialog form button {
 }
 
 .container::before {
-    background-image: url(../images/background.png);
+    background-image: url(https://obs.cstcloud.cn/share/obs/sankagenkeshi/background.png);
     opacity: 0.3;
     background-size: 20%;
     background-position: bottom right;
@@ -126,7 +126,7 @@ dialog form button {
     border-radius: 12px;
     font-size: 1rem;
     transition: .4s;
-    background: url(../images/statement.png);
+    background: url(https://obs.cstcloud.cn/share/obs/sankagenkeshi/statement.png);
     opacity: 0.8;
 }
 
