@@ -1,6 +1,6 @@
 @font-face {
     font-family: 得意黑 斜体;
-    src: url(https://obs.cstcloud.cn/share/obs/sankagenkeshi/SmileySans-Oblique.ttf.woff2);
+    src: url(https://obs.cstcloud.cn/share/obs/sankagenkeshi/assets/SmileySans-Oblique.ttf.woff2);
 }
 
 * {
@@ -104,7 +104,7 @@ dialog form button {
 }
 
 .container::before {
-    background-image: url(https://obs.cstcloud.cn/share/obs/sankagenkeshi/background.png);
+    background-image: url(https://obs.cstcloud.cn/share/obs/sankagenkeshi/assets/background.png);
     opacity: 0.3;
     background-size: 20%;
     background-position: bottom right;
@@ -126,7 +126,7 @@ dialog form button {
     border-radius: 12px;
     font-size: 1rem;
     transition: .4s;
-    background: url(https://obs.cstcloud.cn/share/obs/sankagenkeshi/statement.png);
+    background: url(https://obs.cstcloud.cn/share/obs/sankagenkeshi/assets/statement.png);
     opacity: 0.8;
 }
 
