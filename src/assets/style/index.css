@@ -118,17 +118,6 @@ dialog form button {
     z-index: -1;
 }
 
-.input-box {
-    resize: none;
-    padding: 4px;
-    width: 100%;
-    border: 2px solid rgb(221, 221, 224);
-    border-radius: 12px;
-    font-size: 1rem;
-    transition: .4s;
-    background: url(https://obs.cstcloud.cn/share/obs/sankagenkeshi/assets/statement.png);
-    opacity: 0.8;
-}
 
 .input-box:focus {
     transition: .4s;
