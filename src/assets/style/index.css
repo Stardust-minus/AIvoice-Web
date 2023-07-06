@@ -1,6 +1,6 @@
 @font-face {
     font-family: 得意黑 斜体;
-    src: url(../assets/SmileySans-Oblique.ttf.woff2);
+    src: url(../SmileySans-Oblique.ttf.woff2);
 }
 
 * {
@@ -104,7 +104,7 @@ dialog form button {
 }
 
 .container::before {
-    background-image: url(../assets/background.png);
+    background-image: url(../images/background.png);
     opacity: 0.3;
     background-size: 20%;
     background-position: bottom right;
