@@ -14,12 +14,15 @@ export const setParams = () => {
     for (let i = 0; i < nodeList.length; i++) {
         switch (i) {
             case 0:
-                nodeList[i].innerHTML = data['noise']
+                nodeList[i].innerHTML = data['sdp_ratio']
                 break
             case 1:
-                nodeList[i].innerHTML = data['noisew']
+                nodeList[i].innerHTML = data['noise']
                 break
             case 2:
+                nodeList[i].innerHTML = data['noisew']
+                break
+            case 3:
                 nodeList[i].innerHTML = data['length']
                 break
         }
@@ -43,13 +46,13 @@ export const bindData = () => {
 
 // 填入数据
 export const getVoice = () => {
-    const { text, speaker, noise, noisew, length, format } = data
+    const { text, speaker, sdp_ratio, noise, noisew, length, format } = data
     if (text === '') {
         alert('请输入文本!')
     }
     else {
         const node = document.getElementsByTagName('audio')[0]
-        node.setAttribute('src', `https://genshinvoice.top/api?speaker=${speaker}&text=${text}&format=${format}&length=${1 / length}&noise=${noise}&noisew=${noisew}`)
+        node.setAttribute('src', `https://genshinvoice.top/api?speaker=${speaker}&text=${text}&format=${format}&length=${1 / length}&noise=${noise}&noisew=${noisew}&sdp_ratio={sdp_ratio}`)
     }
 }
 
