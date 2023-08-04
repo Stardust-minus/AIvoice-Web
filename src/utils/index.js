@@ -52,7 +52,7 @@ export const getVoice = () => {
     }
     else {
         const node = document.getElementsByTagName('audio')[0]
-        node.setAttribute('src', `https://genshinvoice.top/api?speaker=${speaker}&text=${text}&format=${format}&length=${1 / length}&noise=${noise}&noisew=${noisew}&sdp_ratio={sdp_ratio}`)
+        node.setAttribute('src', `https://genshinvoice.top/api?speaker=${speaker}&text=${text}&format=${format}&length=${1 / length}&noise=${noise}&noisew=${noisew}&sdp_ratio=${sdp_ratio}`)
     }
 }
 
