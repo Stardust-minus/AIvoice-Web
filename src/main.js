@@ -10,7 +10,7 @@ export let data = {
     'sdp_ratio': '0.2',
     'noise': '0.5',
     'noisew': '0.9',
-    'length': '0.8',
+    'length': '1.0',
     'format': 'wav'
 }
 
