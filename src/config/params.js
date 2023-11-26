@@ -10,6 +10,6 @@ export const params = {
     length: [0.5, 2, 0.1, 1.0],
     emotion: [0, 9, 1, 0],
     // 选择器：选项数组
-    language: ['ZH', 'EN', 'JP', 'mix'],
+    language: ['ZH', 'EN', 'JP', 'mix','auto'],
     format: ['wav', 'mp3', 'ogg']
 }
