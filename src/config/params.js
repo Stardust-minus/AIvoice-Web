@@ -8,6 +8,7 @@ export const params = {
     noise: [0.0, 1.5, 0.1, 0.6],
     noisew: [0.0, 1.5, 0.1, 0.8],
     length: [0.5, 2, 0.1, 1.0],
+    emotion: [0, 9, 1, 0],
     // 选择器：选项数组
     language: ['ZH', 'EN', 'JP', 'mix'],
     format: ['wav', 'mp3', 'ogg']
