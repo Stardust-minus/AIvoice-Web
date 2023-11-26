@@ -75,10 +75,6 @@ dialog div {
     font-size: 18px;
 }
 
-dialog img {
-    background-image: url(../images/QRcode.png);
-}
-
 dialog form {
     text-align: center;
     margin-top: -20px;
